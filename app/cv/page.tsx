@@ -8,8 +8,7 @@ export default function CV() {
             <div className="flex my-8 bg-dark py-2 px-4 rounded-md shadow-[0px_0px_30px_2px_rgb(90,90,90,90)]">
             <ul className="flex flex-row gap-4">
                 <Link href="/" className="font-ibm-plex hover:underline">./Accueil</Link>
-                <Link href="/about" className="font-ibm-plex hover:underline">./À propos</Link>
-                <Link href="/projects" className="font-ibm-plex hover:underline">./Projets</Link>
+                <Link href="/portfolio" className="font-ibm-plex hover:underline">./Portfolio</Link>
                 <Link href="/cv" className="font-ibm-plex hover:underline">./CV</Link>
             </ul>
             </div>
