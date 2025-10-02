@@ -4,7 +4,7 @@ ymarques.com
 To launch it
 
 ```bash
-npm run dev
+npm run build
 # and
 npm run start
 ```
