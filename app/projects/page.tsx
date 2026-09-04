@@ -22,7 +22,6 @@ export default async function Projects() {
             <div className="flex my-8 bg-dark py-2 px-4 rounded-md shadow-[0px_0px_30px_2px_rgb(90,90,90,90)]">
             <ul className="flex flex-row gap-4">
                 <Link href="/" className="font-ibm-plex hover:underline">./Accueil</Link>
-                <Link href="/about" className="font-ibm-plex hover:underline">./À propos</Link>
                 <Link href="/projects" className="font-ibm-plex hover:underline">./Projets</Link>
                 <Link href="/cv" className="font-ibm-plex hover:underline">./CV</Link>
             </ul>
@@ -75,14 +74,14 @@ export default async function Projects() {
                 <div className="flex w-full justify-around gap-6 mb-10">
                     <div className="flex flex-col">
                         <img
-                            src="https://github-readme-stats.vercel.app/api?username=yann-marques&show_icons=true&theme=dark&count_private=true"
+                            src="https://github-stats-extended.vercel.app/api?username=yann-marques&show_icons=true&theme=dark&count_private=true"
                             alt="GitHub Stats"
                             className="rounded-lg h-full"
                         />
                     </div>
                     <div className="flex flex-col">
                         <img
-                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=yann-marques&layout=compact&theme=dark"
+                            src="https://github-stats-extended.vercel.app/api/top-langs/?username=yann-marques&layout=compact&theme=dark"
                             alt="Top Languages"
                             className="rounded-lg h-full"
                         />
