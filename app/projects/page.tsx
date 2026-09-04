@@ -3,7 +3,7 @@ import Link from "next/link";
 
 async function getRepos() {
   const res = await fetch("https://api.github.com/users/yann-marques/repos", {
-    next: { revalidate: 3600 }, // revalidate every hour (optional)
+    next: { revalidate: 3600 },
   });
 
   if (!res.ok) throw new Error("Failed to fetch repos");
@@ -23,7 +23,6 @@ export default async function Projects() {
             <ul className="flex flex-row gap-4">
                 <Link href="/" className="font-ibm-plex hover:underline">./Accueil</Link>
                 <Link href="/projects" className="font-ibm-plex hover:underline">./Projets</Link>
-                <Link href="/cv" className="font-ibm-plex hover:underline">./CV</Link>
             </ul>
             </div>
         </div>

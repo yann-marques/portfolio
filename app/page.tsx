@@ -14,7 +14,6 @@ export default function Home() {
           <ul className="flex flex-row gap-4">
             <Link href="/" className="font-ibm-plex hover:underline">./Accueil</Link>
             <Link href="/projects" className="font-ibm-plex hover:underline">./Projets</Link>
-            <Link href="/cv" className="font-ibm-plex hover:underline">./CV</Link>
           </ul>
         </div>
 
