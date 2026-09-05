@@ -40,7 +40,7 @@ export default function Home() {
             <p className="font-ibm-plex">À 42, je développe en majeur partie avec des langages "système" comme <strong>C</strong>, <strong>C++</strong>, <strong>Rust</strong> sous Linux.
               L'optimisation des ressources du programme et bonne organisation du code font partie des bases de mon cursus.</p>
             <p className="font-ibm-plex">Après le tronc commun de 42, j'ai fait un stage de 6 mois en tant que développeur web fullstack à Paris.
-              J'ai pu découvrir le monde professionnel et travailler en équipe sur une codebase importante. Cela m'a apporté une expérience sur quelques technos que je ne connaissais pas <strong>(Django, Ansible, Pipline CI/DC GitHub, AWS)</strong>.</p>
+              J'ai pu découvrir le monde professionnel et travailler en équipe sur une codebase importante. Cela m'a apporté une expérience sur quelques technos que je ne connaissais pas <strong>(Django, Ansible, Pipeline CI/CD GitHub, AWS)</strong>.</p>
             <p className="font-ibm-plex">Dans ce portfolio, vous trouverez des informations sur mes compétences, mon parcours académique et professionnel, ainsi que mes projets réalisés.</p>
           </div>
           <div className="my-8 flex flex-col items-center justify-center text-center">
