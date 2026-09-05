@@ -1,0 +1,25 @@
+services:
+  app:
+    build: ./portfolio
+    container_name: portfolio
+    restart: always
+    expose:
+      - "3000" # internal port for the app
+    networks:
+      - webnet
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx_proxy
+    restart: always
+    ports:
+      - "80:80" # expose nginx on port 80
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - app
+    networks:
+      - webnet
+
+networks:
+  webnet:
