@@ -2,6 +2,8 @@ services:
   app:
     build: ./portfolio
     container_name: portfolio
+    environment:
+	SERVER_ACTIONS_ENABLED: "false"
     restart: always
     expose:
       - "3000" # internal port for the app
